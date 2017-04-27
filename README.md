@@ -17,7 +17,7 @@ The following python packages must be present in the host machine before executi
 
 > matplotlib
 
-## First Usage
+## Application Type 1
 
 The software attempts to simulate a online/streaming feature scenario. First it builds a base model with a handful of features against which the new features is evaluated for goodness. Execute the following command:
 
@@ -41,7 +41,7 @@ Input:
 
 >>The script produces a figure that represents a contingency table. The fist quadrant demonstrates how the evaluated score correlates with the actual improvement. A statistical significance test  of the contingency table is also displayed in the output.
 
-## Second Usage
+## Application Type 2
 
 The same program can be used for simple feature selection avoiding over-fitting as well. Execute the following command:
 
